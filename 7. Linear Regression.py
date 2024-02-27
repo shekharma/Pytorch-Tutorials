@@ -15,7 +15,7 @@ from sklearn import datasets
 import matplotlib.pyplot as plt
 
 
-# 0) prepare data
+# 0) prepare data- the below library prepare data by randomly sampling 
 x_numpy, y_numpy=datasets.make_regression(n_samples=100,n_features=1,noise=20,random_state=1)
 
 x=torch.from_numpy(x_numpy.astype(np.float32))
