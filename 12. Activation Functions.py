@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
+import torch.nn.functional as F ## only for leaky relu
 
 # option 1 (create nn modules)
 
